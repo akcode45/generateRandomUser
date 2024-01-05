@@ -1,0 +1,82 @@
+@import "https://fonts.googleapis.com/css?family=Ubuntu:300,400,500";
+@import "https://fonts.googleapis.com/css?family=Raleway:400";
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: cursive;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body{
+    background-color: #e5d4ed;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 120px;
+    width: 500px;
+    height: 400px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border : 0;
+    border-radius: 25px;
+}
+
+
+
+img{
+    margin-top: 10px;
+    width: 150px;
+    border: 0;
+    border-radius: 50%  ;
+}
+
+table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    min-width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(2, 2, 2, 0.15);
+    background-color: #6d72c3;
+}
+
+th,td{
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 5px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+
+tr:nth-of-type(even){
+    background-color: #625d5d;
+    
+}
+
+/* #details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10px;
+    padding: 10px;
+    border: 3px solid rgb(237, 79, 11);
+    border-radius: 30px;
+}
+
+#details h1{
+    color: red;
+    font-size: 30px;
+} */
